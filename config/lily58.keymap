@@ -50,6 +50,8 @@
 &kp F1    &kp F2 &kp F3 &kp F4  &kp F5  &kp F6                          &trans        &kp LEFT    &kp DOWN    &kp UP     &kp RIGHT &trans
 &kp F7    &kp F8 &kp F9 &kp F10 &kp F11 &kp F12   &trans   &trans       &kp KP_PLUS   &kp MINUS   &kp EQUAL   &kp LBKT   &kp RBKT  &kp BSLH
                         &kp RALT  &kp LS(NUBS)  &kp RA(N1)   &none   &none   &trans        &trans      &trans
+
+                        &kp NUBS &kp LS(NUBS) &kp RA(N1) &none &none &kp RALT &trans &trans 
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
